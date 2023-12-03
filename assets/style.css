@@ -1,21 +1,19 @@
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    overflow: auto;
-    position: relative;
+
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     background-color: blue;
     color: black;
 }
 
-header,
-footer {
-    
+header {
+
     height: 88px;
     width: 100%;
     line-height: 60px;
@@ -23,9 +21,9 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    
 
-   
+
+
 }
 
 header {
@@ -37,44 +35,80 @@ header {
 .topnav {
     overflow: hidden;
     background-color: #333;
-  }
-  
-  /* Style the topnav links */
-  .topnav a {
+}
+
+/* Style the topnav links */
+.topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
+}
+
+/* Change color on hover */
+.topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
 
 
-h1 {text-align: left;}
+h1 {
+    text-align: left;
+}
 
 
 
+/* position and size of image container */
 .section-image {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+
 }
 
-.img {
-    transform: scale(1.5);
-    position: absolute;
-    top: 50px;
-    left: 50px;
- 
-    
+img {
+    width: 100%
+}
+
+.about-me {
+
+    width: 250px;
+    font-size: 20px;
+
+}
+
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.projects a {
+    display: inline-block;
+    max-width: 500px;
+    padding: 10px;
+
+}
+
+.projects a:hover {
+    background-color: #f2f2f2;
+    color: chartreuse;
 }
 
 
 
 
+footer {
+
+    background-color: red;
+    text-align: center;
+
+}
+
+.text-center {
+    text-align: center;
+}
